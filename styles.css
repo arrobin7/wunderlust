@@ -138,6 +138,7 @@ img {
 ul {
     list-style: none;
 }
+
 header {
     background: linear-gradient(to bottom, #55BCD5, white);
 }
@@ -149,6 +150,7 @@ header {
 
 #logo img {
     max-width: 100%;
+    background: transparent;
 }
 
 h1 {
@@ -203,7 +205,6 @@ label[for="toggle"] {
     height: auto;
     object-fit: cover;
 }
-
 
 #img-grid {
     display: grid;
@@ -477,7 +478,6 @@ footer a {
     header {
         display: block;
     }
-}
 
     header h1,
     header p {
@@ -517,6 +517,7 @@ footer a {
     label[for="toggle"]:hover {
         cursor: pointer;
     }
+
     #menu-toggle ul {
         display: none;
         position: absolute;
@@ -561,7 +562,7 @@ footer a {
         width: 100%;
         text-align: center;
     }
-
+}
 
 @media screen and (min-width: 768px) {
     #img-grid {
